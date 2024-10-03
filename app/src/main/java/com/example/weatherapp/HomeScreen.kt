@@ -89,7 +89,8 @@ fun BlockOfForecastWeather(modifier: Modifier = Modifier) {
     Card(
         modifier = modifier
             .padding(8.dp)
-            .size(width = 80.dp, height = 200.dp).wrapContentSize(align = Alignment.Center),
+            .size(width = 80.dp, height = 200.dp)
+            .wrapContentSize(align = Alignment.Center),
         colors = CardDefaults.cardColors(
             containerColor = Color.Transparent,
         ),
