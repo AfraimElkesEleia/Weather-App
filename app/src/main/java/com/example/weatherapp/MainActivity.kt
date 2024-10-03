@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             WeatherAppTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
+                    HomeScreen(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
